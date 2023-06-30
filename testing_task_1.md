@@ -20,7 +20,7 @@ class CardGame:
   def check_for_ace(self, card):
     if card.value = 1: # operator here should be '==' instead of '=' to compare the value given, a single equals sign will simply set the value to 1 instead of comparing.
       return True
-    else
+    else # missing colon
       return False
    
 
@@ -35,7 +35,7 @@ class CardGame:
 def cards_total(self, cards):
   total # total needs to be assigned to a value such as 0
   for card in cards:
-    total += card.value
-    return "You have a total of" + str(total) # total needs to be converted to a string in order to return a full statement 
+    total += card.value 
+    return "You have a total of" + str(total) # total needs to be converted to a string in order to return a full statement, and return statement needs to be at same indentation as for statement
   
 ```
